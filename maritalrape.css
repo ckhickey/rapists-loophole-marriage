@@ -1,0 +1,76 @@
+.normal_case{text-transform:none}.correction{color:#666;font-family:"Solido",helvetica,sans-serif;font-size:.9em}.wide_inset_caption_margin{top:-3.5em}.wide_inset_caption_margin.margin_caption_align{top:2.5em;padding-bottom:2em}.writer{padding-right:5px;letter-spacing:1px;font-size:1.3em;}
+.wide_copy{padding:3em 2em; max-width:800px;}.wide_copy .wide_intro_lead{line-height:1.8rem;font-family:"Tiempos",Georgia,serif;font-size:15px;letter-spacing:0;text-transform:inherit}.wide_copy .wide_intro_lead:first-line{font-size:1.5em;font-weight: 700;}.author_bio{margin-top:2em;padding-top:2em;border-top:1px solid #111;font-family:"Solido",helvetica,arial,sans-serif;font-size:.8em}.author_bio p{font-family:inherit;font-size:inherit}
+
+.map-parent {  }
+
+#map-container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  font-family: "Solido" !important;
+}
+
+.wide_header_text{text-align:center;position:relative;padding:.6em;width:100%;max-width: 800px;left:0;margin: 0 auto;}.wide_header_text .wide_header_title{padding:0.938rem 0px;line-height:0.85em !important;}
+.wide_header_text .wide_header_author{margin:0;}.wide_header_subtitle{position:relative;text-align:center;padding:0em 1em 1em;font-size:1.5em !important;line-height:1.3em!important;}
+
+.wide_header_section{position:relative; background-color: #eb1414; color: #fff !important; font-size: 0.9em !important;
+    font-family: "Solido",helvetica,arial,sans-serif !important; padding: 0.5em; letter-spacing: 0 !important; top:10%; text-transform: uppercase;}
+
+.wide_content_social{margin:0 0 1.5em 0}.wide_content_social ul li{width:28px}.wide_inset_photo{width:80%}
+
+
+@media screen and (min-width:375px){.wide_inset_photo{width:100%}}
+
+@media screen and (min-width:1150px){.wide_inset_caption_margin{top:4.5em}.wide_inset_caption_margin.margin_caption_align{position:relative;right:0;width:80%}}
+
+
+@media screen and (max-width:1023px) {
+    .wide_header_subtitle {
+        padding: 0 4.5em 1em !important;
+    }
+
+  /*  #map-container {
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+  #map-container {
+    height: 120vh;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  #map-container {
+    height: 150vh;
+  }
+} */
+
+@media screen and (max-width:850px) {
+    #map-container {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .wide_copy {
+        padding: 0.6em !important;
+    }
+
+    .wide_header_text .wide_header_title {
+        font-size: 2.5em !important;
+    }
+
+    .wide_header_subtitle, .writer {
+        font-size: 1.1em !important;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    #map-container {
+        height: 300px;
+    }
+}
